@@ -11,19 +11,21 @@
       crossorigin="anonymous"
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
+    </style>
   </head>
-  <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
+  <body class="vh-100 bg-success">
+    <div
+      id="card"
+      class="container text-center h-75 w-25 bg-white d-flex flex-column mt-5"
+    >
+      <div class="cardSeed mb-auto me-auto"></div>
+      <div id="cardNumber"></div>
+      <div class="cardSeed mt-auto ms-auto seedFlipRight"></div>
     </div>
-  </body>
+    <div class="container d-flex justify-content-center mt-4">
+    <button type="button " class="btn btn-primary" id="randomButton">
+      Generar número y semilla aleatorios
+    </button>
+  </div>
+    </body>
 </html>
